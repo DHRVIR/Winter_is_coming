@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 with open('requirenments.txt') as f:
-    required = str(f.read().splitlines())
+    required = f.read().splitlines()
 
 setup( 
     name = "snowflake",
