@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open('requirements.txt') as file:
+with open('requirenments.txt') as file:
     important = file.read().splitlines()
 setup( 
     name = "snowflake",
