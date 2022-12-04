@@ -9,5 +9,5 @@ setup(
     author_email = "bhavsardhrutiv@gmail.com",
     url = "https://github.com/DHRVIR/Winter_is_coming.git",
     packages = find_packages(),
-    install_requires = important,
+    install_requires = important
 )
