@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 with open('requirenments.txt') as file:
-    imp = file.read().splitlines()
+    required = file.read().splitlines()
 setup( 
     name = "snowflake",
     author = "Dhrutiv Jasmin Bhavsar",
@@ -9,5 +9,6 @@ setup(
     author_email = "bhavsardhrutiv@gmail.com",
     url = "https://github.com/DHRVIR/Winter_is_coming.git",
     packages = find_packages(),
-    install_requires = imp
+    install_requires = required
 )
+print(type(required))
