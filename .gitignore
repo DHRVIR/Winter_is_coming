@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # vs folder
-.vs/
+*.vs/
